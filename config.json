@@ -1,0 +1,26 @@
+# Pac-Man configuration file. Lines starting with # are comments.
+{
+    # File where the top 10 scores are stored
+    "highscore_filename": "highscores.json",
+    "lives": 3,
+    "points_per_pacgum": 10,
+    "points_per_super_pacgum": 50,
+    "points_per_ghost": 200,
+    # Seed of the first level (must be >= 1)
+    "seed": 42,
+    # Seconds available per level
+    "level_max_time": 90,
+    # One entry per level (at least 10)
+    "level": [
+        {"width": 15, "height": 15},
+        {"width": 15, "height": 15},
+        {"width": 17, "height": 17},
+        {"width": 17, "height": 17},
+        {"width": 19, "height": 19},
+        {"width": 19, "height": 19},
+        {"width": 21, "height": 21},
+        {"width": 21, "height": 21},
+        {"width": 23, "height": 23},
+        {"width": 23, "height": 23}
+    ]
+}
